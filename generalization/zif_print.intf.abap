@@ -1,0 +1,6 @@
+INTERFACE zif_print
+  PUBLIC .
+
+  METHODS print.
+
+ENDINTERFACE.

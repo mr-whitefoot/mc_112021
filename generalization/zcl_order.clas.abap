@@ -1,0 +1,21 @@
+CLASS zcl_order DEFINITION
+  PUBLIC
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    INTERFACES zif_print.
+
+  PROTECTED SECTION.
+
+  PRIVATE SECTION.
+
+ENDCLASS.
+
+
+
+CLASS zcl_order IMPLEMENTATION.
+  METHOD zif_print~print.
+    WRITE 'Печать заказа'.
+    NEW-LINE.
+  ENDMETHOD.
+ENDCLASS.

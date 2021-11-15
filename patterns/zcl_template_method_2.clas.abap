@@ -1,0 +1,21 @@
+CLASS zcl_template_method_2 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC
+  INHERITING FROM zcl_template_method.
+
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+    METHODS: step_two REDEFINITION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_template_method_2 IMPLEMENTATION.
+  METHOD step_two.
+    WRITE |Шаг два вариант 2|.
+    NEW-LINE.
+  ENDMETHOD.
+
+ENDCLASS.
